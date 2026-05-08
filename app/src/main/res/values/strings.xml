@@ -1,6 +1,31 @@
 <resources>
     <string name="app_name">SistemaAlumnos</string>
     <string name="action_settings">Settings</string>
+
+    <!-- Login -->
+    <string name="login_system_title">Sistema Integral de Escolar</string>
+    <string name="login_system_subtitle">Tecnológico Nacional de México</string>
+    <string name="login_logo_desc">Logotipo del sistema</string>
+    <string name="login_label_id">No. de Identificación</string>
+    <string name="login_hint_id">Ingresa tu número de identificación</string>
+    <string name="login_btn_sie">Ingresar a SIE</string>
+    <string name="login_footer">© Tecnológico Nacional de México · SIE</string>
+
+    <!-- Pantalla Alumnos -->
+    <string name="alumnos_title">Datos del Alumno</string>
+    <string name="alumnos_section_datos">INFORMACIÓN PERSONAL</string>
+    <string name="alumnos_section_materias">MATERIAS Y CALIFICACIONES</string>
+    <string name="alumnos_label_control">NO. DE CONTROL</string>
+    <string name="alumnos_hint_control">Ej. 22050001</string>
+    <string name="alumnos_label_nombre">NOMBRE COMPLETO</string>
+    <string name="alumnos_hint_nombre">Apellido Paterno Materno, Nombre(s)</string>
+    <string name="alumnos_label_telefono">NÚMERO DE TELÉFONO</string>
+    <string name="alumnos_hint_telefono">10 dígitos</string>
+    <string name="alumnos_col_materia">MATERIA</string>
+    <string name="alumnos_col_calificacion">CALIF.</string>
+    <string name="alumnos_hint_materia">Materia</string>
+    <string name="alumnos_hint_calificacion">0 – 100</string>
+    <string name="alumnos_promedio">PROMEDIO GENERAL</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
