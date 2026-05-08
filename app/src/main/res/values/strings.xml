@@ -26,7 +26,37 @@
     <string name="alumnos_hint_materia">Materia</string>
     <string name="alumnos_hint_calificacion">0 – 100</string>
     <string name="alumnos_promedio">PROMEDIO GENERAL</string>
-    <!-- Strings used for fragments for navigation -->
+
+    <!-- Pantalla Docentes -->
+    <string name="docentes_title">Datos del Docente</string>
+    <string name="docentes_section_datos">INFORMACIÓN DEL DOCENTE</string>
+    <string name="docentes_section_materias">MATERIAS POR ALUMNO</string>
+    <string name="docentes_label_no_empleado">NO. DE EMPLEADO</string>
+    <string name="docentes_hint_no_empleado">Ej. EMP-00123</string>
+    <string name="docentes_label_nombre">NOMBRE COMPLETO</string>
+    <string name="docentes_hint_nombre">Apellido Paterno Materno, Nombre(s)</string>
+    <string name="docentes_label_direccion">DIRECCIÓN</string>
+    <string name="docentes_hint_direccion">Calle, Colonia, Ciudad</string>
+    <string name="docentes_label_alumno">SELECCIONAR ALUMNO</string>
+    <string name="docentes_hint_alumno">Buscar alumno…</string>
+    <string name="docentes_col_materia">MATERIA</string>
+    <string name="docentes_col_calificacion">CALIF.</string>
+    <string name="docentes_col_accion">ACCIÓN</string>
+    <string name="docentes_btn_asignar">Asignar</string>
+
+    <!-- Pantalla Administrador -->
+    <string name="admin_title">Panel de Administrador</string>
+    <string name="admin_bienvenida">Panel de Control</string>
+    <string name="admin_bienvenida_sub">Gestión de alumnos, docentes y materias</string>
+    <string name="admin_section_alumnos">ALUMNOS</string>
+    <string name="admin_section_docentes">DOCENTES</string>
+    <string name="admin_section_materias">MATERIAS</string>
+    <string name="admin_btn_alta">Alta</string>
+    <string name="admin_btn_ver">Visualizar</string>
+    <string name="admin_btn_editar">Editar</string>
+    <string name="admin_btn_eliminar">Eliminar</string>
+
+
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>

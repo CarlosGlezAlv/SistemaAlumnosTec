@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="?attr/selectableItemBackground">
+
+    <!-- Nombre de la materia -->
+    <TextView
+        android:id="@+id/tv_doc_materia_nombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingStart="10dp"
+        android:text="—"
+        android:textColor="@color/text_primary"
+        android:textSize="13sp" />
+
+    <!-- Calificación (campo editable) -->
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_doc_calificacion"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:inputType="numberDecimal"
+        android:maxLength="5"
+        android:hint="0.0"
+        android:textAlignment="center"
+        android:textColor="@color/text_primary"
+        android:textSize="14sp"
+        android:background="@android:color/transparent"
+        android:gravity="center" />
+
+    <!-- Botón Asignar -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_asignar_calificacion"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="@string/docentes_btn_asignar"
+        android:textColor="@color/tec_red"
+        android:textSize="11sp"
+        android:layout_marginEnd="4dp"
+        app:rippleColor="@color/tec_red_light" />
+
+</LinearLayout>
